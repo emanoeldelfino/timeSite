@@ -17,8 +17,6 @@ var timeImg = document.querySelector('img#photoTime');
 
 var partDay, color;
 
-hour = 22;
-
 if (hour < 0 || hour > 23) {
     alert('Invalid hour.');
 } else if (hour >= 19 || hour < 5) {
